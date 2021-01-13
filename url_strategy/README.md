@@ -43,4 +43,4 @@ See [this more detailed StackOverflow answer][answer] for more information.
 
 You can also use a hash URL strategy instead (which is the default) by calling `setHashUrlStrategy`.
 
-[answer]: 
+[answer]: https://stackoverflow.com/a/65709246/6509751
