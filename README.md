@@ -19,7 +19,7 @@ void main() {
 ```
 
 See the [`url_strategy` package README](https://github.com/creativecreatorormaybenot/url_strategy/tree/master/url_strategy)
-or the [exlanation on StackOverflow](https://stackoverflow.com/a/65709246/6509751) for a more detailed usage documentation.
+or the [exlanation on StackOverflow](https://stackoverflow.com/a/65709246/6509751) for more detailed usage documentation.
 
 ## Implementation
 
