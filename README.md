@@ -4,7 +4,7 @@ Package for Flutter apps that allows setting the web URL strategy with a single 
 
 ## Usage
 
-With a simple call of `setPathUrlStrategy`, your Flutter web app does not include a leading `#`
+With a simple call of `setPathUrlStrategy`, your Flutter web app does not have a leading `#`
 in the URL anymore 🚀
 
 ```dart
