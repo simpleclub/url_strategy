@@ -1,0 +1,22 @@
+name: url_strategy_example
+description: Example app for using the url_strategy package.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_strategy:
+    # When depending on this package from a real application you should use:
+    #   url_strategy: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the package so we use a path dependency on
+    # the parent directory to use the current package's version.
+    path: ../
+
+flutter:
+  uses-material-design: true

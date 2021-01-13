@@ -1,0 +1,44 @@
+name: Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '**/lib/**'
+      - '**/android/**'
+      - '**/ios/**'
+      - '**/pubspec.yaml'
+      - '**/test/**'
+      - '**/test_driver/**'
+      - '**/assets/**'
+      - '**/integration_test/**'
+
+jobs:
+  analyze:
+    timeout-minutes: 7
+    runs-on: ubuntu-latest
+    name: Analysis of ${{ matrix.package }} (${{ matrix.channel }})
+    strategy:
+      matrix:
+        channel:
+          # Not analyzing stable because setUrlStrategy is not yet in stable.
+          #- 'stable'
+          - 'beta'
+          - 'dev'
+        package:
+          - 'url_strategy'
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v2.3.3
+      - uses: subosito/flutter-action@v1.4.0
+        with:
+          channel: ${{ matrix.channel }}
+      - run: flutter pub get
+        working-directory: ${{ matrix.package }}
+      - name: Check format
+        working-directory: ${{ matrix.package }}
+        run: dart format . --set-exit-if-changed
+      - run: flutter analyze
+        working-directory: ${{ matrix.package }}
