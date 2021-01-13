@@ -1,0 +1,13 @@
+name: url_strategy
+description: >-2
+  Package for Flutter apps that allows setting the web URL strategy with a single line of code.
+version: 0.1.0
+homepage: https://github.com/creativecreatorormaybenot/url_strategy/tree/main/url_strategy
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter_web_plugins:
+    sdk: flutter
