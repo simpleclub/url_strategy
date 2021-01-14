@@ -1,4 +1,4 @@
-# url_strategy [![Pub version](https://img.shields.io/pub/v/url_strategy.svg)](https://pub.dev/packages/url_strategy) [![Twitter Follow](https://img.shields.io/twitter/follow/creativemaybeno?label=Follow&style=social)](https://twitter.com/creativemaybeno) 
+# url_strategy [![Pub version](https://img.shields.io/pub/v/url_strategy.svg)](https://pub.dev/packages/url_strategy) 
 
 Package for Flutter apps that allows setting the web URL strategy with a single line of code.
 
@@ -18,7 +18,7 @@ void main() {
 }
 ```
 
-See the [`url_strategy` package README](https://github.com/creativecreatorormaybenot/url_strategy/tree/master/url_strategy)
+See the [`url_strategy` package README](https://github.com/simpleclub/url_strategy/tree/master/url_strategy)
 or the [exlanation on StackOverflow](https://stackoverflow.com/a/65709246/6509751) for more detailed usage documentation.
 
 ## Implementation

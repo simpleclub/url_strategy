@@ -1,4 +1,4 @@
-# url_strategy [![GitHub stars](https://img.shields.io/github/stars/creativecreatorormaybenot/url_strategy.svg)](https://github.com/creativecreatorormaybenot/url_strategy) [![Twitter Follow](https://img.shields.io/twitter/follow/creativemaybeno?label=Follow&style=social)](https://twitter.com/creativemaybeno)
+# url_strategy [![GitHub stars](https://img.shields.io/github/stars/simpleclub/url_strategy.svg)](https://github.com/simpleclub/url_strategy)
 
 Package for Flutter apps that allows setting the web URL strategy with a single line of code.
 
