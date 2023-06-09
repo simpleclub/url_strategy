@@ -29,6 +29,8 @@ jobs:
     timeout-minutes: 4
     runs-on: ubuntu-latest
     name: Publishing of ${{ matrix.package }}
+    permissions:
+      id-token: write # Allows to publish to pub.dev without personal credentials
     strategy:
       matrix:
         package:
