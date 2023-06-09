@@ -22,8 +22,7 @@ jobs:
     strategy:
       matrix:
         channel:
-          # Not analyzing stable because setUrlStrategy is not yet in stable.
-          #- 'stable'
+          - 'stable'
           - 'beta'
           - 'dev'
         package:
