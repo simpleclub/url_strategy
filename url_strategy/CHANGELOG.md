@@ -1,3 +1,7 @@
+## 0.3.0
+
+* Migrated to js_interop. (#42)
+
 ## 0.2.0
 
 * Bumped to stable null safety release.
