@@ -1,5 +1,9 @@
 # url_strategy [![Pub version](https://img.shields.io/pub/v/url_strategy.svg)](https://pub.dev/packages/url_strategy)
 
+> ⚠️ **Discontinued**: The functionality is now provided by the flutter SDK out of the box:
+> 
+> https://docs.flutter.dev/ui/navigation/url-strategies
+
 Package for Flutter apps that allows setting the web URL strategy with a single line of code.
 
 ## Usage
